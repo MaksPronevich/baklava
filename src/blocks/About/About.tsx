@@ -11,7 +11,7 @@ export const About = (): JSX.Element => {
 			<MouseParallaxContainer globalFactorX={0.1} globalFactorY={0.1} resetOnLeave>
 				<div className="relative mx-auto max-w-[1360px] px-4 lg:pb-[735px]">
 					<div className="flex flex-col items-center justify-center gap-6 lg:flex-row lg:items-start lg:justify-end lg:gap-0">
-						<div className="mt-[200px] max-w-[545px] text-center">
+						<div className="mt-[200px] max-w-[545px] text-center lg:translate-y-[60px]">
 							<h2 className="mb-7 font-nazari text-5xl">About Baklava</h2>
 							<div>
 								<p>A unique flavor and texture. The best dessert in the world.</p>
@@ -33,20 +33,20 @@ export const About = (): JSX.Element => {
 					<MouseParallaxChild
 						factorX={-0.2}
 						factorY={0.1}
-						className="absolute left-[5%] top-0 z-10 hidden lg:block"
+						className="absolute left-[5%] top-0 z-[991] hidden lg:block"
 					>
 						<img src={cloudImg} alt="Cloud" />
 					</MouseParallaxChild>
 					<MouseParallaxChild
 						factorX={0.3}
 						factorY={0.1}
-						className="absolute left-4 top-[55px] z-20 hidden w-[40%] lg:block"
+						className="absolute left-4 top-[55px] z-[992] hidden w-[40%] lg:block"
 					>
 						<img src={housesImg} alt="Houses" />
 					</MouseParallaxChild>
 					<img
 						src={baklavaImg}
-						className="absolute left-4 top-1/2 z-30 hidden w-[40%] lg:block"
+						className="absolute left-4 top-1/2 z-[993] hidden w-[40%] lg:block"
 						alt="Baklava"
 					/>
 				</div>

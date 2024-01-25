@@ -21,11 +21,11 @@ export const Tokenomics = (): JSX.Element => {
 				globalFactorX={0.1}
 				globalFactorY={0.1}
 				resetOnLeave
-				className="relative lg:-mx-[100px] lg:px-[100px]"
+				className="relative lg:-mx-[20%] lg:px-[20%]"
 			>
 				<div className="relative mx-auto max-w-[1360px] px-4 pb-[130px] pt-[180px] lg:pb-[400px] lg:pt-[255px]">
 					<div className="flex flex-col-reverse items-center gap-[50px] lg:flex-row lg:items-start lg:justify-end lg:gap-0">
-						<div className="relative z-[80] w-full max-w-[546px] text-center text-white lg:mr-9">
+						<div className="relative z-[80] w-full max-w-[546px] text-center text-white lg:mr-9 lg:translate-y-[60px]">
 							<h2 className="mb-6 font-nazari text-5xl leading-[110%]">Tokenomics</h2>
 							<p>LP tokens are burnt, unlike our filo dough. Contract ownership is renounced.</p>
 							<div className="mx-auto mt-6 inline-flex h-[117px] w-full max-w-[318px] flex-col items-center justify-center gap-2 bg-[url('./assets/img/token-sipply.png')]">
@@ -62,7 +62,7 @@ export const Tokenomics = (): JSX.Element => {
 					<MouseParallaxChild
 						factorX={0.3}
 						factorY={0.1}
-						className="absolute left-0 top-0 hidden lg:block"
+						className="absolute inset-x-0 top-0 hidden lg:block"
 					>
 						<img src={cloudImg} alt="Cloud" />
 					</MouseParallaxChild>
@@ -70,28 +70,28 @@ export const Tokenomics = (): JSX.Element => {
 				<MouseParallaxChild
 					factorX={0}
 					factorY={0.1}
-					className="absolute left-0 top-[10%] z-10 hidden lg:block"
+					className="absolute inset-x-0 top-[10%] z-10 hidden lg:block"
 				>
 					<img src={fogImg} className="-scale-x-[1] scale-y-[1] transform" alt="Fog" />
 				</MouseParallaxChild>
 				<MouseParallaxChild
 					factorX={-0.1}
 					factorY={-0.1}
-					className="absolute left-0 top-[20%] z-20 hidden scale-[-1,1] lg:block"
+					className="absolute inset-x-0 top-[20%] z-20 hidden scale-[-1,1] lg:block"
 				>
 					<img src={fogSmImg} className="-scale-x-[1] scale-y-[1] transform" alt="Fog" />
 				</MouseParallaxChild>
 				<MouseParallaxChild
 					factorX={0.1}
 					factorY={0}
-					className="absolute left-0 top-[20%] z-30 hidden lg:block"
+					className="absolute inset-x-0 top-[20%] z-30 hidden lg:block"
 				>
 					<img src={buildingImg} className="-scale-x-[1] scale-y-[1] transform" alt="Building" />
 				</MouseParallaxChild>
 				<MouseParallaxChild
 					factorX={-0.1}
 					factorY={0}
-					className="absolute left-0 top-[25%] z-40 hidden lg:block"
+					className="absolute inset-x-0 top-[25%] z-40 hidden lg:block"
 				>
 					<img src={buildingSmImg} className="-scale-x-[1] scale-y-[1] transform" alt="Building" />
 				</MouseParallaxChild>

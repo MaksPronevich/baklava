@@ -18,7 +18,7 @@ export const Mission = (): JSX.Element => {
 								alt="Baklava"
 							/>
 						</div>
-						<div className="mt-[150px] max-w-[545px] text-center lg:mt-[768px]">
+						<div className="mt-[150px] max-w-[545px] text-center lg:mt-[768px] lg:-translate-y-[60px]">
 							<h2 className="mb-7 font-nazari text-5xl">Our mission</h2>
 							<div>
 								<p>Ride the honey pipes all the way to the moon.</p>
