@@ -1,7 +1,7 @@
 import { MouseParallaxChild, MouseParallaxContainer } from "react-parallax-mouse";
 
 import baklavaImg from "../../assets/img/baklava-04.png";
-import cloudImg from "../../assets/img/cloud.svg";
+import cloudImg from "../../assets/img/cloud-02.svg";
 import buildingImg from "../../assets/img/intro-building.png";
 import buildingSmImg from "../../assets/img/intro-building-sm.png";
 import fogImg from "../../assets/img/intro-fog.svg";
