@@ -5,7 +5,7 @@ export const Footer = (): JSX.Element => {
 	return (
 		<footer className="py-9">
 			<div className="relative mx-auto max-w-[1360px] px-4">
-				<div className="flex flex-col items-center justify-between gap-4 sm:flex-row">
+				<div className="flex flex-col items-center justify-between gap-4 lg:flex-row">
 					<div className="flex gap-5">
 						{socials.map(({ name, logoUrl, link }, index) => (
 							<a

@@ -29,7 +29,7 @@ export const Intro = (): JSX.Element => {
 				resetOnLeave
 				className="relative lg:-mx-[100px] lg:px-[100px]"
 			>
-				<div className="relative mx-auto max-w-[1360px] px-4 pb-[200px] pt-[180px] lg:pb-[400px] lg:pt-[255px]">
+				<div className="relative mx-auto max-w-[1360px] px-4 pb-[130px] pt-[180px] lg:pb-[400px] lg:pt-[255px]">
 					<div className="flex flex-col-reverse items-center gap-[50px] lg:flex-row lg:items-start lg:justify-around lg:gap-0">
 						<div className="relative z-[80] w-full max-w-[546px] text-center text-white">
 							<h1 className="mb-6 font-nazari text-[64px] leading-[110%]">Baklava</h1>
