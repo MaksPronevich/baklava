@@ -54,13 +54,13 @@ export const Roadmap = (): JSX.Element => {
 					<MouseParallaxChild
 						factorX={0.3}
 						factorY={0.1}
-						className="absolute right-6 top-0 z-20 hidden w-[50%] lg:block"
+						className="absolute right-6 top-0 z-[995] hidden w-[50%] lg:block"
 					>
 						<img src={palmImg} alt="Castle" />
 					</MouseParallaxChild>
 					<img
 						src={baklavaImg}
-						className="absolute -right-[10%] bottom-0 z-30 hidden w-[70%] lg:block"
+						className="absolute -right-[10%] bottom-0 z-[996] hidden w-[70%] lg:block"
 						alt="Baklava"
 					/>
 				</div>

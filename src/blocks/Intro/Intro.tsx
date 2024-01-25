@@ -31,7 +31,7 @@ export const Intro = (): JSX.Element => {
 			>
 				<div className="relative mx-auto max-w-[1360px] px-4 pb-[130px] pt-[180px] lg:pb-[400px] lg:pt-[255px]">
 					<div className="flex flex-col-reverse items-center gap-[50px] lg:flex-row lg:items-start lg:justify-around lg:gap-0">
-						<div className="relative z-[80] w-full max-w-[546px] text-center text-white lg:translate-y-[60px]">
+						<div className="relative z-[80] w-full max-w-[546px] text-center text-white lg:translate-y-[70px]">
 							<h1 className="mb-6 font-nazari text-[64px] leading-[110%]">Baklava</h1>
 							<p>
 								Every crypto enthusiast's sweetest dream. Handcrafted in the secret chambers of Ava
@@ -121,7 +121,7 @@ export const Intro = (): JSX.Element => {
 				<MouseParallaxChild
 					factorX={-0.1}
 					factorY={0}
-					className="absolute inset-x-0 top-[25%] z-40 hidden lg:block"
+					className="absolute inset-x-0 top-[25%] z-40 hidden  lg:block"
 				>
 					<img src={buildingSmImg} alt="Building" />
 				</MouseParallaxChild>
