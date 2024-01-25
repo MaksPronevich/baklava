@@ -7,19 +7,19 @@ import logoImg from "../../assets/img/logo.svg";
 
 export const Header = (): JSX.Element => {
 	return (
-		<header className="absolute left-0 top-0 z-50 w-full pt-4">
+		<header className="absolute left-0 top-0 z-[90] w-full pt-4">
 			<div className="mx-auto max-w-[1360px] px-4">
 				<div className="flex items-start justify-between">
 					<div className="hidden lg:flex">
 						<a
 							href="#about"
-							className="hover:text-red font-nazari inline-flex w-[200px] justify-center px-2 py-5 text-base font-normal transition"
+							className="inline-flex w-[200px] justify-center px-2 py-5 font-nazari text-base font-normal transition hover:text-red"
 						>
 							About
 						</a>
 						<a
 							href="#mission"
-							className="hover:text-red font-nazari inline-flex w-[200px] justify-center px-2 py-5 text-base font-normal transition"
+							className="inline-flex w-[200px] justify-center px-2 py-5 font-nazari text-base font-normal transition hover:text-red"
 						>
 							Mission
 						</a>
@@ -28,18 +28,18 @@ export const Header = (): JSX.Element => {
 					<div className="hidden lg:flex">
 						<a
 							href="#okenomics"
-							className="hover:text-red font-nazari inline-flex w-[200px] justify-center px-2 py-5 text-base font-normal transition"
+							className="inline-flex w-[200px] justify-center px-2 py-5 font-nazari text-base font-normal transition hover:text-red"
 						>
 							Tokenomics
 						</a>
 						<a
 							href="#roadmap"
-							className="hover:text-red font-nazari inline-flex w-[200px] justify-center px-2 py-5 text-base font-normal transition"
+							className="inline-flex w-[200px] justify-center px-2 py-5 font-nazari text-base font-normal transition hover:text-red"
 						>
 							Roadmap
 						</a>
 					</div>
-					<Popover className="relative inline-flex lg:hidden">
+					<Popover className="relative z-[9999] inline-flex lg:hidden">
 						{({ open, close }) => (
 							<>
 								<Popover.Button className="">
@@ -55,32 +55,32 @@ export const Header = (): JSX.Element => {
 									leaveFrom="opacity-100 translate-y-0"
 									leaveTo="opacity-0 translate-y-full"
 								>
-									<Popover.Panel className="absolute right-0 z-10 mt-10 transform">
-										<div className="bg-beige border-brown rounded-lg border-2 shadow-lg">
+									<Popover.Panel className="absolute right-0  mt-10 transform">
+										<div className="rounded-lg border-2 border-brown bg-beige shadow-lg">
 											<a
 												href="#about"
-												className="hover:text-red font-nazari inline-flex w-[200px] justify-center px-2 py-5 text-base font-normal transition"
+												className="inline-flex w-[200px] justify-center px-2 py-5 font-nazari text-base font-normal transition hover:text-red"
 												onClick={() => close()}
 											>
 												About
 											</a>
 											<a
 												href="#mission"
-												className="hover:text-red font-nazari inline-flex w-[200px] justify-center px-2 py-5 text-base font-normal transition"
+												className="inline-flex w-[200px] justify-center px-2 py-5 font-nazari text-base font-normal transition hover:text-red"
 												onClick={() => close()}
 											>
 												Mission
 											</a>
 											<a
 												href="#okenomics"
-												className="hover:text-red font-nazari inline-flex w-[200px] justify-center px-2 py-5 text-base font-normal transition"
+												className="inline-flex w-[200px] justify-center px-2 py-5 font-nazari text-base font-normal transition hover:text-red"
 												onClick={() => close()}
 											>
 												Tokenomics
 											</a>
 											<a
 												href="#roadmap"
-												className="hover:text-red font-nazari inline-flex w-[200px] justify-center px-2 py-5 text-base font-normal transition"
+												className="inline-flex w-[200px] justify-center px-2 py-5 font-nazari text-base font-normal transition hover:text-red"
 												onClick={() => close()}
 											>
 												Roadmap

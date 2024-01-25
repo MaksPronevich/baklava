@@ -8,4 +8,6 @@ export const projectConfig = {
 		{ name: "Etherscan", logoUrl: "/img/socials/etherscan.svg", link: "" },
 		{ name: "Medium", logoUrl: "/img/socials/medium.svg", link: "" },
 	],
+
+	buyEGSLink: "",
 };
