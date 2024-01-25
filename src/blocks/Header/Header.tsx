@@ -27,7 +27,7 @@ export const Header = (): JSX.Element => {
 					<img src={logoImg} className="w-[130px] lg:w-[200px]" alt="Baklava" />
 					<div className="hidden lg:flex">
 						<a
-							href="#okenomics"
+							href="#tokenomics"
 							className="inline-flex w-[200px] justify-center px-2 py-5 font-nazari text-base font-normal transition hover:text-red"
 						>
 							Tokenomics
@@ -72,7 +72,7 @@ export const Header = (): JSX.Element => {
 												Mission
 											</a>
 											<a
-												href="#okenomics"
+												href="#tokenomics"
 												className="inline-flex w-[200px] justify-center px-2 py-5 font-nazari text-base font-normal transition hover:text-red"
 												onClick={() => close()}
 											>
