@@ -1,6 +1,6 @@
 import { MouseParallaxChild, MouseParallaxContainer } from "react-parallax-mouse";
 
-import baklavaImg from "../../assets/img/baklava-05.png";
+import baklavaImg from "../../assets/img/05.svg";
 import palmImg from "../../assets/img/palm.png";
 import mobileImg from "../../assets/img/roadmap-img-mobile.png";
 
@@ -58,10 +58,10 @@ export const Roadmap = (): JSX.Element => {
 					>
 						<img src={palmImg} alt="Castle" />
 					</MouseParallaxChild>
-					<img
-						src={baklavaImg}
+					<object
+						data={baklavaImg}
 						className="absolute -right-[10%] bottom-0 z-[996] hidden w-[70%] lg:block"
-						alt="Baklava"
+						type="image/svg+xml"
 					/>
 				</div>
 			</MouseParallaxContainer>

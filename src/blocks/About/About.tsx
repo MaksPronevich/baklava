@@ -1,7 +1,7 @@
 import { MouseParallaxChild, MouseParallaxContainer } from "react-parallax-mouse";
 
+import baklavaImg from "../../assets/img/02.svg";
 import mobileImg from "../../assets/img/about-img-mobile.png";
-import baklavaImg from "../../assets/img/baklava-02.png";
 import cloudImg from "../../assets/img/cloud.svg";
 import housesImg from "../../assets/img/houses.png";
 
@@ -44,10 +44,10 @@ export const About = (): JSX.Element => {
 					>
 						<img src={housesImg} alt="Houses" />
 					</MouseParallaxChild>
-					<img
-						src={baklavaImg}
+					<object
+						data={baklavaImg}
 						className="absolute left-4 top-1/2 z-[993] hidden w-[40%] lg:block"
-						alt="Baklava"
+						type="image/svg+xml"
 					/>
 				</div>
 			</MouseParallaxContainer>

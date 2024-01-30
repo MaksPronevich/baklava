@@ -1,6 +1,6 @@
 import { MouseParallaxChild, MouseParallaxContainer } from "react-parallax-mouse";
 
-import baklavaImg from "../../assets/img/baklava-04.png";
+import baklavaImg from "../../assets/img/04.svg";
 import cloudImg from "../../assets/img/cloud-02.svg";
 import buildingImg from "../../assets/img/intro-building.png";
 import buildingSmImg from "../../assets/img/intro-building-sm.png";
@@ -38,19 +38,19 @@ export const Tokenomics = (): JSX.Element => {
 							<Link className="my-6 w-full max-w-[318px]" href={buyEGSLink}>
 								Buy Now
 							</Link>
-							<div className="relative mt-12 block w-full pb-[90%] lg:hidden">
-								<img
-									src={baklavaImg}
+							<div className="relative mt-12 block w-full pb-[100%] lg:hidden">
+								<object
+									data={baklavaImg}
 									className="absolute h-full w-full object-contain"
-									alt="Baklava"
+									type="image/svg+xml"
 								/>
 							</div>
 						</div>
 					</div>
-					<img
-						src={baklavaImg}
-						className="absolute left-0 top-0 z-[70] hidden w-[59%] lg:block"
-						alt="Baklava"
+					<object
+						data={baklavaImg}
+						className="absolute left-0 top-0 z-[70] hidden w-[55%] lg:block"
+						type="image/svg+xml"
 					/>
 					<MouseParallaxChild
 						factorX={0.3}

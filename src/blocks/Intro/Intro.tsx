@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { MouseParallaxChild, MouseParallaxContainer } from "react-parallax-mouse";
 
-import baklavaImg from "../../assets/img/baklava-01.png";
+import baklavaImg from "../../assets/img/01.svg";
 import buildingImg from "../../assets/img/intro-building.png";
 import buildingSmImg from "../../assets/img/intro-building-sm.png";
 import fogImg from "../../assets/img/intro-fog.svg";
@@ -62,10 +62,10 @@ export const Intro = (): JSX.Element => {
 								)}
 							</div>
 							<div className="relative mt-12 block w-full pb-[90%] lg:hidden">
-								<img
-									src={baklavaImg}
-									className="absolute h-full w-full object-contain"
-									alt="Baklava"
+								<object
+									data={baklavaImg}
+									className="absolute h-full w-full object-cover"
+									type="image/svg+xml"
 								/>
 							</div>
 						</div>
@@ -84,10 +84,10 @@ export const Intro = (): JSX.Element => {
 							</div>
 						</div>
 					</div>
-					<img
-						src={baklavaImg}
+					<object
+						data={baklavaImg}
 						className="absolute right-[5%] top-[30%] z-[70] hidden w-[43%] lg:block"
-						alt="Baklava"
+						type="image/svg+xml"
 					/>
 					<MouseParallaxChild
 						factorX={0.3}
