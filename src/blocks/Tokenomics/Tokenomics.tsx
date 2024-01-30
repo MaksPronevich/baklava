@@ -57,14 +57,14 @@ export const Tokenomics = (): JSX.Element => {
 						factorY={0.1}
 						className="absolute right-[10%] top-[7%] hidden lg:block"
 					>
-						<div className=" h-[250px] w-[250px] rounded-full bg-white" />
+						<div className="h-[250px] w-[250px] rounded-full bg-white" />
 					</MouseParallaxChild>
 					<MouseParallaxChild
 						factorX={0.3}
 						factorY={0.1}
 						className="absolute inset-x-0 top-0 hidden lg:block"
 					>
-						<img src={cloudImg} alt="Cloud" />
+						<img src={cloudImg} loading="lazy" alt="Cloud" />
 					</MouseParallaxChild>
 				</div>
 				<MouseParallaxChild
@@ -72,28 +72,48 @@ export const Tokenomics = (): JSX.Element => {
 					factorY={0.1}
 					className="absolute top-[10%] z-10 hidden lg:block"
 				>
-					<img src={fogImg} className="-scale-x-[1] scale-y-[1] transform" alt="Fog" />
+					<img
+						src={fogImg}
+						loading="lazy"
+						className="-scale-x-[1] scale-y-[1] transform"
+						alt="Fog"
+					/>
 				</MouseParallaxChild>
 				<MouseParallaxChild
 					factorX={-0.1}
 					factorY={-0.1}
 					className="absolute top-[20%] z-20 hidden scale-[-1,1] lg:block"
 				>
-					<img src={fogSmImg} className="-scale-x-[1] scale-y-[1] transform" alt="Fog" />
+					<img
+						src={fogSmImg}
+						loading="lazy"
+						className="-scale-x-[1] scale-y-[1] transform"
+						alt="Fog"
+					/>
 				</MouseParallaxChild>
 				<MouseParallaxChild
 					factorX={0.1}
 					factorY={0}
 					className="absolute top-[20%] z-30 hidden lg:block"
 				>
-					<img src={buildingImg} className="-scale-x-[1] scale-y-[1] transform" alt="Building" />
+					<img
+						src={buildingImg}
+						loading="lazy"
+						className="-scale-x-[1] scale-y-[1] transform"
+						alt="Building"
+					/>
 				</MouseParallaxChild>
 				<MouseParallaxChild
 					factorX={-0.1}
 					factorY={0}
 					className="absolute top-[25%] z-40 hidden lg:block"
 				>
-					<img src={buildingSmImg} className="-scale-x-[1] scale-y-[1] transform" alt="Building" />
+					<img
+						src={buildingSmImg}
+						loading="lazy"
+						className="-scale-x-[1] scale-y-[1] transform"
+						alt="Building"
+					/>
 				</MouseParallaxChild>
 				<div className="absolute left-0 top-0 z-50 hidden h-full w-full bg-gradient-to-l from-[rgba(255,220,170,0.00)] from-50% to-[#FFDCAA] to-100% lg:block" />
 			</MouseParallaxContainer>
