@@ -11,7 +11,7 @@ import { projectConfig } from "../../projectConfig";
 
 export const Intro = (): JSX.Element => {
 	const [isNotificationVisible, setIsNotificationVisible] = useState<boolean>(false);
-	const { address, socials, buyEGSLink } = projectConfig;
+	const { address, socials, buyLink } = projectConfig;
 
 	const copyHandler = (copiedText: string): void => {
 		navigator.clipboard.writeText(copiedText);
@@ -37,8 +37,8 @@ export const Intro = (): JSX.Element => {
 								Every crypto enthusiast's sweetest dream. Handcrafted in the secret chambers of Ava
 								Labs. It's the cherished family recipe by Emin Gün Sirer.
 							</p>
-							<Link className="my-6 w-full" href={buyEGSLink}>
-								Buy $EGS
+							<Link className="my-6 w-full" href={buyLink} target="_blank">
+								Buy $FILO
 							</Link>
 							<div className="relative flex items-center rounded-[10px] border-[3px] bg-[rgba(66,39,32,0.7)] px-6 py-5">
 								<button onClick={() => copyHandler(address)} className="mr-6">

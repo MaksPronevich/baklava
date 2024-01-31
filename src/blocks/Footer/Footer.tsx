@@ -19,7 +19,7 @@ export const Footer = (): JSX.Element => {
 						))}
 					</div>
 					<div className="text-center text-base font-medium sm:text-xl">
-						© {new Date().getFullYear()} $EGS. All rights reserved.
+						© {new Date().getFullYear()} $FILO. All rights reserved.
 					</div>
 				</div>
 			</div>

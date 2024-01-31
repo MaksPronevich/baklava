@@ -10,7 +10,7 @@ import { Link } from "../../components/Link";
 import { projectConfig } from "../../projectConfig";
 
 export const Tokenomics = (): JSX.Element => {
-	const { buyEGSLink } = projectConfig;
+	const { buyLink } = projectConfig;
 
 	return (
 		<section
@@ -32,10 +32,10 @@ export const Tokenomics = (): JSX.Element => {
 								<span>Token Supply:</span>
 								<div className="inline-flex items-center gap-4">
 									<span className="translate-y-[4px] font-nazari text-4xl">300 B</span>
-									<span className="text-4xl font-bold">$EGS</span>
+									<span className="text-4xl font-bold">$FILO</span>
 								</div>
 							</div>
-							<Link className="my-6 w-full max-w-[318px]" href={buyEGSLink}>
+							<Link className="my-6 w-full max-w-[318px]" href={buyLink} target="_blank">
 								Buy Now
 							</Link>
 							<div className="relative mt-12 block w-full pb-[100%] lg:hidden">

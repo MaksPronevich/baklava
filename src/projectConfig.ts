@@ -9,5 +9,5 @@ export const projectConfig = {
 		{ name: "Medium", logoUrl: "/img/socials/medium.svg", link: "" },
 	],
 
-	buyEGSLink: "",
+	buyLink: "",
 };
